@@ -1,5 +1,7 @@
 # explainer-video
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Remotion](https://img.shields.io/badge/render-Remotion-0B84F3.svg)](https://www.remotion.dev) [![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-skill-D97757.svg)](SKILL.md) [![Cite](https://img.shields.io/badge/cite-CITATION.cff-blue.svg)](CITATION.cff)
+
 用代码批量做讲解、培训、场景教程视频的 Claude Code skill。
 
 **内容写成 JSON，画面交给模板，声音交给 API，质量交给脚本检查。** 不需要剪辑软件，改一句话重渲一集只要两三分钟。
@@ -57,11 +59,12 @@ example/              示例分镜 + 素材（含通用界面截图生成脚本�
 reference/            踩坑记录、业内技术栈与教程链接
 ```
 
-## 许可
+## 许可与引用
 
-- **代码**：MIT。
-- **Remotion**：Remotion 本身对一定规模以上的公司要求购买[商业授权](https://www.remotion.dev/license)，商用前请先确认。
-- **素材**：示例图片由 AI 生成。用 AI 配音、配乐、配图时，请遵守各服务商的使用条款。
+- **代码**：[MIT](LICENSE)，可以自由使用、修改、商用，保留版权声明即可。
+- **第三方依赖**：各自遵循原协议，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。特别注意，Remotion 对一定规模以上的公司要求购买[公司授权](https://www.remotion.dev/license)。
+- **AI 生成内容**：配音、配乐、配图的版权与商用许可，以你所用服务商的条款为准。
+- **引用**：如果在文章、报告或项目里引用本仓库，可以使用 [CITATION.cff](CITATION.cff)；GitHub 页面右侧的「Cite this repository」会自动生成 APA / BibTeX 格式。
 
 ---
 

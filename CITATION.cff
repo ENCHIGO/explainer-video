@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "如果这个项目对你有帮助，引用时可以使用以下信息。 If you use this software, please cite it as below."
+title: "explainer-video: a Claude Code skill for narrated, beat-synced explainer videos"
+type: software
+authors:
+  - family-names: Feng
+    given-names: Jiaqi
+    alias: ENCHIGO
+repository-code: "https://github.com/ENCHIGO/explainer-video"
+url: "https://github.com/ENCHIGO/explainer-video"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-23"
+keywords:
+  - claude-code
+  - agent-skills
+  - remotion
+  - text-to-speech
+  - explainer-video
+abstract: >-
+  A Claude Code skill that turns a JSON storyboard into narrated explainer and
+  training videos. Rendering uses Remotion. TTS, image and music generation are
+  pluggable across OpenRouter, any OpenAI-compatible endpoint, Alibaba DashScope
+  and Volcengine. Cuts are beat-synced, the music ducks under the voice, and QA
+  scripts are included.
+references:
+  - type: software
+    title: Remotion
+    authors:
+      - name: Remotion AG
+    url: "https://www.remotion.dev"
+    repository-code: "https://github.com/remotion-dev/remotion"
+    license-url: "https://www.remotion.dev/license"
+  - type: software
+    title: FFmpeg
+    authors:
+      - name: The FFmpeg developers
+    url: "https://ffmpeg.org"
+  - type: software
+    title: React
+    authors:
+      - name: Meta Platforms, Inc. and affiliates
+    repository-code: "https://github.com/facebook/react"
+    license: MIT
+  - type: software
+    title: NumPy
+    authors:
+      - name: NumPy Developers
+    repository-code: "https://github.com/numpy/numpy"
+    license: BSD-3-Clause
+  - type: software
+    title: Pillow
+    authors:
+      - name: Jeffrey A. Clark and contributors
+    repository-code: "https://github.com/python-pillow/Pillow"
+    license: MIT-CMU
