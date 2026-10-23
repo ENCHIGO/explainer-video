@@ -1,0 +1,2 @@
+{"series": "讲解视频模板", "label": "占位", "intro": true, "outro": true, "beats": [
+ {"type": "cover", "eyebrow": "TEMPLATE", "title": "讲解视频模板", "subtitle": "先跑 scripts/plan.py 生成真正的时间线", "vo": "先跑 plan 脚本，这里就会换成你的内容。", "dur": 150, "vlen": 0}]}
