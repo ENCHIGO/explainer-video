@@ -1,0 +1,17 @@
+{
+ "name": "小智",
+ "tagline": "你的 AI 工作助手",
+ "outroLine": "有事，找小智",
+ "logo": null,
+ "avatar": null,
+ "colors": {
+  "primary": "#01A6B5",
+  "accent": "#0BC9C2",
+  "accent2": "#3AEF94",
+  "gradFrom": "#0193AB",
+  "ink": "#0F2A33",
+  "sub": "#4B6470",
+  "line": "#D5ECEC",
+  "bg": "#F4FAFA"
+ }
+}
